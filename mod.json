@@ -1,10 +1,10 @@
 {
-	"name": "pictologic",
-	"displayName": "PicToLogic",
+	"name": "TRRESTGHGYTCFTGBCXSZDCheatdustrypictologic",
+	"displayName": "PicToLogic (Cheatdustry Processors)",
 	"author": "DeltaNedas, Router and another guy",
 	"description": "Adds a dialog for turning images into processor schematics.\n[stat]Requires [#00aaff]DeltaNedas/ui-lib[].",
 	"version": "1.5.7",
-	"dependencies": ["ui-lib"],
-	"minGameVersion": 114,
+	"dependencies": ["ui-lib","trrestghgytcftgbcxszdcheatdustry"],
+	"minGameVersion": 126.2,
 	"hidden": true
 }

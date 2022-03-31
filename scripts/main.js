@@ -1,20 +1,20 @@
 const ui = require("ui-lib/library");
 
-const core = require("pictologic/core");
+const core = require("trrestghgytcftgbcxszdcheatdustrypictologic/core");
 
 var ptl;
 
-ui.addMenuButton("PicToLogic", "paste", () => {
+ui.addMenuButton("PicToLogic (Cheatdustry Processors)", "paste", () => {
 	ptl.show();
 });
 
 ui.onLoad(() => {
 	// Add button in Schematics dialog
-	Vars.ui.schematics.buttons.button("PicToLogic", Icon.paste, () => {
+	Vars.ui.schematics.buttons.button("PicToLogic (Cheatdustry Processors)", Icon.paste, () => {
 		ptl.show();
 	});
 
-	ptl = new BaseDialog("PicToLogic");
+	ptl = new BaseDialog("PicToLogic (Cheatdustry Processors)");
 
 	ptl.cont.add("[coral]1.[] Select a PNG image.");
 	ptl.cont.row();

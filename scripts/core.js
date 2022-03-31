@@ -1,5 +1,5 @@
 const ui = global.ui;
-const fast = require("pictologic/fast");
+const fast = require("trrestghgytcftgbcxszdcheatdustrypictologic/fast");
 
 const core = {
 	// settings //
@@ -164,8 +164,8 @@ core.export = pixmap => {
 		if (x > width) width = x;
 		if (y > height) height = y;
 
-		const build = Blocks.microProcessor.newBuilding();
-		build.tile = new Tile(x, y, Blocks.stone, Blocks.air, Blocks.microProcessor);
+		const build = Vars.content.block("trrestghgytcftgbcxszdcheatdustry-ultimate-processor").newBuilding();
+		build.tile = new Tile(x, y, Blocks.stone, Blocks.air, Vars.content.block("trrestghgytcftgbcxszdcheatdustry-ultimate-processor"));
 		// Link the display to the processor
 		build.links.add(new LogicBlock.LogicLink(disp.x, disp.y, "display1", true));
 		// Add the image segment code
